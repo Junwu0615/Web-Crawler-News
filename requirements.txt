@@ -1,0 +1,5 @@
+lxml==4.9.3
+pandas==2.1.4
+requests==2.31.0
+argumentparser==1.2.1
+beautifulsoup4==4.12.2

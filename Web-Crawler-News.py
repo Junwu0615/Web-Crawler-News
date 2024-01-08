@@ -4,15 +4,14 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from argparse import ArgumentParser
 
-
 def parse_args():
     parse = ArgumentParser()
     parse.add_argument("-t", "--type", 
                        help = "give a type | ex: '台灣水庫 / 空氣品質 / 天氣預報 / 牌告匯率 / 台灣股票 / 世界指數 / \n世界股票 / 虛擬貨幣 / ETF市場 / 外匯市場 / 期貨市場'", 
-                       default = "type", type = str)   
+                       default = "台灣水庫", type = str)   
     parse.add_argument("-p", "--pathANDname", 
                        help = "give a path and filename | ex: './filename.csv'", 
-                       default = "filename.csv", type = str)
+                       default = "./filename.csv", type = str)
     args = parse.parse_args()
     return args
 
@@ -25,9 +24,9 @@ def mkdir(path):
         folder = os.path.exists(path)
         if not folder:
             os.makedirs(path)
-            print("建立成功")
+            print("Folder_Created_Successfully")
         else:
-            print(path+"目錄已存在")
+            print("Confirmed_That_The_Folder_Exists")
         
 def web_take_df_to_csv(type_, pathANDname):
     #web type
