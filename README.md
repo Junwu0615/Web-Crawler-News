@@ -8,17 +8,17 @@
 [![](https://img.shields.io/badge/Package-ArgumentParser_1.2.1-green.svg?style=plastic)](https://pypi.org/project/argumentparser/) 
 
 ## STEP.1　CLONE
-```ruby
+```python
 git clone https://github.com/Junwu0615/Web-Crawler-News.git
 ```
 
 ## STEP.2　INSTALL PACKAGES
-```ruby
+```python
 pip install -r requirements.txt
 ```
 
 ## STEP.3　RUN
-```ruby
+```python
 python Web-Crawler-News.py -h
 ```
 #If you encounter the following problems :
@@ -46,7 +46,7 @@ python Web-Crawler-News.py -h
 至 **台灣水庫** 網頁，將其內容抓下來到當前目錄，並命名 **台灣水庫當前現況.csv** 。
   - `-t` 台灣水庫
   - `-p` ./台灣水庫當前現況.csv
-```ruby
+```python
 python Web-Crawler-News.py -t 台灣水庫 -p ./台灣水庫當前現況.csv
 ```
   - 台灣水庫當前現況.csv
@@ -56,7 +56,7 @@ python Web-Crawler-News.py -t 台灣水庫 -p ./台灣水庫當前現況.csv
 至 **台灣股票** 網頁，將其內容抓下來至當前目錄的檔案夾 ( 股票 ) ，並命名 **台灣股票.csv** 。
   - `-t` 台灣股票
   - `-p` ./股票/台灣股票.csv
-```ruby
+```python
 python Web-Crawler-News.py -t 台灣股票 -p ./股票/台灣股票.csv
 ```
   - 台灣股票.csv
