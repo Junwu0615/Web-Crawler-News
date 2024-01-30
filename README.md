@@ -32,14 +32,14 @@ python Web-Crawler-News.py -h
 
 ## STEP.4　HELP
 
-- -h　Help: Show this help message and exit.
-- -t　Type: Give a type | ex :
+- `-h`　Help: Show this help message and exit.
+- `-t`　Type: Give a type | ex :
 
   - [台灣水庫](https://fhy.wra.gov.tw/ReservoirPage_2011/StorageCapacity.aspx)　|　[空氣品質](https://data.gov.tw/dataset/40448)　|　[天氣預報](https://opendata.cwb.gov.tw/index)　|　[牌告匯率](https://rate.bot.com.tw/xrt)
   - [台灣股票](https://tw.tradingview.com/markets/stocks-taiwan/market-movers-all-stocks/)　|　[世界指數](https://tw.tradingview.com/markets/indices/quotes-major/)　|　[世界股票](https://tw.tradingview.com/markets/world-stocks/worlds-largest-companies/)　|　[虛擬貨幣](https://tw.tradingview.com/markets/cryptocurrencies/prices-all/)
   - [ETF 市場](https://tw.tradingview.com/markets/etfs/funds-largest/)　|　[外匯市場](https://tw.tradingview.com/markets/currencies/rates-all/)　|　[期貨市場](https://tw.tradingview.com/markets/futures/quotes-all/)
 
-- -p　PathandFilename: Give a path and file name | ex :　./filename.csv
+- `-p`　PathandFilename: Give a path and file name | ex :　./filename.csv
 
 ## STEP.5　EXAMPLE
 ### I.　查詢台灣水庫現況
