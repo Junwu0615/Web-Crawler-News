@@ -10,7 +10,7 @@ class AP:
     def __init__(self, obj):
         self.obj = obj
 
-    def parse_args(self) -> ArgumentParser:
+    def parse_args(self) -> Namespace:
         parse = ArgumentParser()
         parse.add_argument("-t", "--type",
                            help="give a type | ex: '台灣水庫 / 空氣品質 / 天氣預報 / 牌告匯率 / 台灣股票 / "
@@ -20,8 +20,7 @@ class AP:
                            help="give a path and filename | ex: './filename.csv'",
                            default="filename.csv", type=str)
 
-        args: Namespace = parse.parse_args()
-        return args
+        return parse.parse_args()
 
     def config_once(self):
         args = self.parse_args()
