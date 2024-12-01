@@ -3,7 +3,7 @@
 @author: PC
 Update Time: 2024-12-01
 """
-import os, copy, json, requests
+import os, json, requests
 import pandas as pd
 
 class News:
