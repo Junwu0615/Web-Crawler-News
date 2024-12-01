@@ -3,8 +3,8 @@
 @author: PC
 Update Time: 2024-11-24
 """
-from Depend.News import News
-from Depend.ArgumentParser import AP
+from package.News import News
+from package.ArgumentParser import AP
 
 class Entry:
     def __init__(self):

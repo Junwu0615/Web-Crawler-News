@@ -41,24 +41,24 @@ python Entry.py -h
 
 ## STEP.5　EXAMPLE
 ### I.　查詢台灣水庫現況
-至 **台灣水庫** 網頁，將其內容抓下來到 `Downloads`，並命名 **台灣水庫當前現況.csv** 。
+至 **台灣水庫** 網頁，將其內容抓下來到 `downloads`，並命名 **台灣水庫當前現況.csv** 。
   - `-t` 台灣水庫
   - `-p` 台灣水庫當前現況.csv
 ```python
 python Entry.py -t 台灣水庫 -p 台灣水庫當前現況.csv
 ```
   - 台灣水庫當前現況.csv
-  - ![台灣水庫當前現況.csv](/Sample/01.PNG)
+  - ![台灣水庫當前現況.csv](/sample/01.PNG)
 
 ### II.　查詢台灣股票現況
-至 **台灣股票** 網頁，將其內容抓下來至 `Downloads`，並命名 **台灣股票.csv** 。
+至 **台灣股票** 網頁，將其內容抓下來至 `downloads`，並命名 **台灣股票.csv** 。
   - `-t` 台灣股票
   - `-p` 股票/台灣股票.csv
 ```python
 python Entry.py -t 台灣股票 -p 台灣股票.csv
 ```
   - 台灣股票.csv
-  - ![台灣股票.csv](/Sample/00.PNG)
+  - ![台灣股票.csv](/sample/00.PNG)
 
 ## 抓取資訊來源
 - [台灣水庫即時水情](https://water.taiwanstat.com/)
